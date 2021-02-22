@@ -1,14 +1,3 @@
-**Disclaimer: `pkg` was created for use within containers and is not intended for use in serverless environments. For those using Vercel, this means that there is no requirement to use `pkg` in your projects as the benefits it provides are not applicable to the platform.**
-
-![](https://res.cloudinary.com/zeit-inc/image/upload/v1509936789/repositories/pkg/pkg-repo-banner-new.png)
-
-[![Build Status](https://travis-ci.org/vercel/pkg.svg?branch=master)](https://travis-ci.org/vercel/pkg)
-[![Coverage Status](https://coveralls.io/repos/github/vercel/pkg/badge.svg?branch=master)](https://coveralls.io/github/vercel/pkg?branch=master)
-[![Dependency Status](https://david-dm.org/vercel/pkg/status.svg)](https://david-dm.org/vercel/pkg)
-[![devDependency Status](https://david-dm.org/vercel/pkg/dev-status.svg)](https://david-dm.org/vercel/pkg?type=dev)
-
-This command line interface enables you to package your Node.js project into an executable that can be run even on devices without Node.js installed.
-
 ## Use Cases
 
 * Make a commercial version of your application without sources
@@ -24,7 +13,7 @@ your application. Deploy it as a single file
 ## Usage
 
 ```sh
-npm install -g pkg
+npm global pkg
 ```
 
 After installing it, run `pkg --help` without arguments to see list of options.
